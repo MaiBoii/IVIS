@@ -1,0 +1,67 @@
+h1 {
+  /*text align center*/
+  text-align: center;
+  /*text color gradient blue*/
+  color: linear-gradient(45deg,rgb(37, 10, 12),rgb(255, 255, 255));
+  /*text font size*/
+  letter-spacing: 1px;
+  /*text margin*/
+  margin: 4rem 0 1rem 4rem;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+input {
+  margin: 1rem;
+}
+
+.generate {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+  /*button font size*/
+  font-size: 1.25rem;
+  /*button font weight*/
+  font-weight: 500;
+  /*button letter spacing*/
+  letter-spacing: 1px;
+  /*button padding*/
+  padding: 0.5rem 1rem;
+  /*button margin*/
+  margin: 1rem;
+}
+
+.generate:hover {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  /*button background color*/
+  background-color: rgb(146, 224, 250);
+  /*button color*/
+  color: rgb(37, 10, 12);
+}
+
+#text-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#text {
+  /*text font size*/
+  font-size: 1.25rem;
+  /*text font weight*/
+  font-weight: 500;
+  /*text letter spacing*/
+  letter-spacing: 1px;
+  /*text padding*/
+  padding: 0.5rem 1rem;
+  /*text margin*/
+  margin: 1rem;
+}
